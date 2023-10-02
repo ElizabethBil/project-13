@@ -12,8 +12,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/project-13/assets/index-bedd7256.js"></script>
-    <link rel="stylesheet" href="/project-13/assets/index-5a35b2fc.css">
+    <script type="module" crossorigin src="/project-13/assets/index-4cd9c34d.js"></script>
+    <link rel="stylesheet" href="/project-13/assets/index-8daaacb3.css">
   </head>
   <body>
     <!-- Serhiychuk Serhiy -->
@@ -324,44 +324,53 @@
 
     <!-- Євгенія -->
     <!-- =======Your order section======= -->
-<section class="section your-order-section">
+<section class="section your-order-section" id="order-section">
     <div class="container order-container">
         <div class="order-bkg-img"></div>
-        <div class="order-form-wrapper">
-            <h2 class="order-title">
-                <span class="order-colored-part">Your order</span> is our priority: Personalized approach and
-                quality of
-                service
-            </h2>
-            <form class="order-form">
-                <div class="order-section-field-wrapper">
-                    <label class="order-form-label" for="user-name">
-                        <input class="order-form-input" type="text" id="user-name" name="user-name"
-                            pattern="[a-zA-zа-яА-ЯіІїЇєЄ']+" placeholder="Enter your full name" required>
-                    </label>
-                </div>
-                <div class="order-section-field-wrapper">
-                    <label class="order-form-label" for="user-email">
-                        <input class="order-form-input" type="email" id="user-email" name="user-email"
-                            placeholder="Enter your email" required>
-                    </label>
-                </div>
-                <div class="order-section-textarea-wrapper">
-                    <label class="order-form-textarea" for="user-comment"></label>
-                    <textarea class="order-form-coment" name="user-comment" id="user-comment"
-                        placeholder="Comments"></textarea>
-                    </label>
-                </div>
-                <button class="order-button" type="submit">
-                    Send
-                    <svg class="order-button-icon" width="26" height="10">
-                        <use href="../img/icons.svg#icon-arrow"></use>
-                    </svg>
-                </button>
-            </form>
+        <div class="order-flex-wrapper">
+            <div class="order-form-wrapper">
+                <h2 class="order-title">
+                    <span class="order-colored-part">Your order</span> is our priority: Personalized approach and
+                    quality of
+                    service
+                </h2>
+                <form class="order-form">
+                    <div class="order-section-field-wrapper">
+                        <label class="order-form-label" for="user-name">
+                            <input class="order-form-input" type="text" id="user-name" name="user-name"
+                                pattern="[a-zA-zа-яА-ЯіІїЇєЄ']+" placeholder="Enter your full name" required>
+                        </label>
+                    </div>
+                    <div class="order-section-field-wrapper">
+                        <label class="order-form-label" for="user-email">
+                            <input class="order-form-input" type="email" id="user-email" name="user-email"
+                                placeholder="Enter your email" required>
+                        </label>
+                    </div>
+                    <div class="order-section-textarea-wrapper">
+                        <label class="order-form-textarea" for="user-comment"></label>
+                        <textarea class="order-form-coment" name="user-comment" id="user-comment"
+                            placeholder="Comments"></textarea>
+                        </label>
+                    </div>
+                    <button class="order-button" type="submit">
+                        Send
+                        <svg class="order-button-icon" width="26" height="10">
+                            <use href="../img/icons.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="order-content-img-wrapper">
+                <img class="order-content-img" srcset="../img/order/order-img-tablet.jpg 638w,
+                            ../img/order/order-img-tablet@2x.jpg 1276w,
+                            ../img/order/order-img-desktop.jpg 524w,
+                            ../img/order/order-img-desktop@2x.jpg 1048w"
+                    sizes="(min-width: 1280px) 524px, (min-width: 768px) 638x" src="../img/order/order-img-tablet.jpg"
+                    alt="girl-wearing-embroidered-shirt">
+            </div>
         </div>
-        <img class="order-content-img" srcset="../img/order/order-img@2x.jpg 2x" src="../img/order/order-img.jpg"
-            alt="girl-wearing-embroidered-shirt">
+        <!-- <div class="bkg-ornament-placeholder "></div> -->
     </div>
 </section>
 <!-- =======/Your order section======= -->
