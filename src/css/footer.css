@@ -1,159 +1,67 @@
-.footerlist-sections {
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 40px;
+  margin-bottom: 40px;
 }
 
-.footer-list-menu {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-    width: 280px;
-height: 61px;
+.footer-list-item {
+  /* Box model */
+  width: calc((100% - 40px) / 2);
+
+  /* Typography */
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
-.footer-link-menu {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        text-transform: uppercase;
+.footer-title {
+  color: var(--white, #fcf9f9);
+  font-size: 44px;
+  line-height: 1.22em;
+  letter-spacing: -0.03em;
+
+  /* Box model */
+  width: 335px;
+  margin-bottom: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
-.footer-section {
-    width: 375px;
-    height: 649px;
-    flex-shrink: 0;
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-    }
-
-    .logo-footer-cont {
-    width: 335px;
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 54px;
-    letter-spacing: -1.32px;
-    }
-
-    .Ukrainian {
-        color: var(--white, #ECD979);
-    }
-
-    .bg-picture {
+  .footer-list {
     display: flex;
-    width: 452px;
-    height: 401px;
-    padding-right: 0px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    }
+    flex-wrap: nowrap;
+    gap: 25px;
+    margin-bottom: 80px;
+  }
 
-    /* .footerlist-sections {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-    } */
+  .footer-list-item {
+    /* Box model */
+    width: auto;
+  }
 
+  .footer-title {
+    /* Box model */
+    width: 521px;
+  }
 
+  .footer-container {
+    padding-bottom: 40px;
+  }
 }
-
 
 @media screen and (min-width: 1280px) {
+  .footer-list {
+    margin-bottom: 117px;
+  }
 
-    .footer-section {
-        width: 768px;
-        height: 370px;
-        flex-shrink: 0;
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-    }
-
-    .logo-footer-cont {
-        width: 521px;
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 54px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 64px;
-        letter-spacing: -1.62px;
-    }
-
-    .Ukrainian {
-        color: var(--white, #ECD979);
-    }
-
-    .g8.png {
-        display: flex;
-        width: 452px;
-        height: 401px;
-        padding-right: 0px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-    }
-
-    .footerlist-sections {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 25px;
-    }
+  .footer-title {
+    /* Box model */
+    width: 754px;
+  }
 }
-
 
 @media screen and (min-width: 1440px) {
-    .footer-section {
-        width: 1440px;
-        height: 363px;
-        flex-shrink: 0;
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-    }
-
-    .logo-footer-cont {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 74px;
-        letter-spacing: -1.92px;
-        width: 754px;
-    }
-
-    .Ukrainian {
-        color: var(--white, #ECD979);
-    }
-
-    .g8.png {
-        display: flex;
-        width: 595px;
-        height: 528px;
-        padding-right: 0px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-    }
-
-    .footerlist-sections {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 25px;
-    }
-
-    
 }
-
