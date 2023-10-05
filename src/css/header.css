@@ -184,6 +184,7 @@
   /* Mobile Menu */
   .header-mobile-menu {
     background-image: url(/img/moblie-menu/tablet-menu.png);
+    width: inherit;
     background-size: 380px;
   }
   .header-content-container {
