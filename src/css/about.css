@@ -11,6 +11,7 @@ padding-bottom: 62px;
 
 
 
+
 @media screen and (min-width: 768px) {
     .section-about-us{
         background-image: url(/img/about/ornamet-about-tablet.png);
@@ -56,10 +57,12 @@ padding-bottom: 62px;
 
 .about-us-text{
     font-size: 14px;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.02em;
     max-width: 335px;
-
 }
+
+
+
 .img-about-us{
     width: 335px;
     height: 499px;
@@ -79,6 +82,7 @@ padding-bottom: 62px;
     .about-us-text{
     font-size: 16px;
     max-width: 704px;
+            letter-spacing: 0.05em;
     }
 }
 @media screen and (min-width: 1280px){
