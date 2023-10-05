@@ -16,6 +16,7 @@ padding-bottom: 62px;
         background-image: url(/img/about/ornamet-about-tablet.png);
        padding-top: 100px;
        padding-bottom: 50px;
+        background-size: inherit;
     }
 }
 
